@@ -1,0 +1,7 @@
+{
+  "name": "AwesomeProject",
+  "displayName": "AwesomeProject",
+  "plugins": [
+    "expo-font"
+  ]
+}
