@@ -6,6 +6,7 @@ import Home from './Home'
 import Notification from './Notification'
 import Mission from './Mission'
 import Shop from './Shop'
+import Dana from './Dana'
 import History from './History'
 
-export{ Splash, SignIn, Verification, Profil, Home, Notification, Mission, Shop, History}
+export{ Splash, SignIn, Verification, Profil, Home, Notification, Mission, Shop, Dana, History}
