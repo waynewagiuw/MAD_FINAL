@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import { Splash, SignIn,  Verification, Home, Profil, Shop, Dana, History, Mission, Notification} from "../pages";
+import { Splash, SignIn,  Verification, Home, Profil, Shop, Dana, History, Mission, Notification, Health} from "../pages";
 
 const Stack = createStackNavigator();
 
@@ -17,6 +17,8 @@ export default function Router() {
       <Stack.Screen name="Dana" component={Dana} options={{ headerShown: false }} />
       <Stack.Screen name="History" component={History} options={{ headerShown: false }} />
       <Stack.Screen name="Mission" component={Mission} options={{ headerShown: false }} />
+      <Stack.Screen name="Health" component={Health} options={{ headerShown: false }} />
+
       
 
     </Stack.Navigator>

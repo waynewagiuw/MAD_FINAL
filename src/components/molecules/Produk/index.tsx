@@ -15,7 +15,7 @@ const Produk = () => {
     return (
         <View style={styles.wrapperFiturUtama}>
             <ProdukSub image={require('../../../assets/icon/pulsa.jpg')} title="Pulsa" pageName="Shop" />
-            <ProdukSub image={require('../../../assets/icon/dana.jpg')} title="DANA" pageName="Mission" />
+            <ProdukSub image={require('../../../assets/icon/dana.jpg')} title="DANA" pageName="Dana" />
             <ProdukSub image={require('../../../assets/icon/gopay.jpg')} title="GoPay" />
             <ProdukSub image={require('../../../assets/icon/ovo.jpg')} title="OVO" />
             <ProdukSub image={require('../../../assets/icon/limited.jpg')} title="limited" />
