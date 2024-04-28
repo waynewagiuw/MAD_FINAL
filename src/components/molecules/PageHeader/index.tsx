@@ -11,6 +11,9 @@ const PageHeader = () => {
     const goToProfile = () => {
         navigation.navigate('Profil');
     };
+    const goToNotif = () => {
+        navigation.navigate('Notification');
+    };
 
     return (
         <View style={styles.container}>
@@ -20,7 +23,7 @@ const PageHeader = () => {
                 </TouchableOpacity>
                 <Text style={styles.Hello}>Hello! <Text style={styles.yellow} color='#FFC700'>Jhon</Text></Text>
                 <Poin width={60} height={60} marginTop={5} marginLeft={85} />
-                <Notif width={30} height={30} marginTop={25} marginLeft={20} />
+                <Notif width={30} height={30} marginTop={25} marginLeft={20} onPress={goToNotif}/>
             </View>
         </View>
     );
