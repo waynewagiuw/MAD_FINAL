@@ -1,11 +1,6 @@
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import {  Gap, PageHeader, Healthbox } from '../../components';
-import Bike from '../../assets/icon/bike'
-import Throw from '../../assets/icon/throw'
-import Recycle from '../../assets/icon/recycle'
-import Plan from '../../assets/icon/plan'
-import Comunity from '../../assets/icon/comunity'
 
 const Health = () => {
 
@@ -17,27 +12,27 @@ const Health = () => {
                 <Gap height={16} />
                 <View >
                     <Healthbox
-                    image={Bike}
+                    image={require('../../assets/icon/bike.png')}
                     label={"Mari kita berkontribusi pada pelestarian lingkungan dan kesehatan diri dengan mengurangi emisi karbon melalui penggunaan transportasi umum atau bersepeda, bukan menggunakan kendaraan pribadi yang berpolusi."}
                    />
                     <Healthbox
-                    image={Throw}
+                    image={require('../../assets/icon/throw.png')}
                     label={"Jaga kebersihan lingkungan kita dengan membuang sampah pada tempatnya, sehingga kita dapat mencegah polusi tanah dan air yang berdampak buruk pada kesehatan masyarakat dan ekosistem."}
                     />
                     <Healthbox
-                    image={Recycle}
+                    image={require('../../assets/icon/recycle.png')}
                     label={"Mari kita mengurangi penggunaan botol air sekali pakai dengan menggunakan botol air daur ulang, yang tidak hanya mengurangi limbah plastik tetapi juga membantu menjaga kesehatan kita dengan minum air yang bersih dan aman."}
                     />
                     <Healthbox
-                    image={Plan}
+                    image={require('../../assets/icon/plant.png')}
                     label={"Dukung keanekaragaman hayati dengan tidak menebang pohon secara sembarangan, melainkan dengan menanam lebih banyak pohon dan menghijaukan lingkungan sekitar kita, yang juga dapat meningkatkan kesehatan mental dan fisik kita."}
                     />
                     <Healthbox
-                    image={Comunity}
+                    image={require('../../assets/icon/friends.png')}
                     label={"Ajak teman dan keluarga untuk bergabung dalam menjaga kebersihan dan kelestarian lingkungan, dengan melakukan kegiatan bersama seperti membersihkan pantai, menanam pohon, atau mendaur ulang sampah, yang dapat mempererat ikatan sosial sambil menjaga kesehatan dan keberlanjutan lingkungan."}
                     />
                 </View>
-                <Gap height={16} />
+                 <Gap height={16} />
             </View>
 
         </ScrollView>

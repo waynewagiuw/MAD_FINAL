@@ -6,5 +6,6 @@ import Notif from './notif';
 import Danatukar from './Dana';
 import Buttonproduk from './Buttonproduk'
 import Healthbox from './healthbox';
+import Invitefooter from './invitefooter';
 
-export {Button, Gap, ButtonMini, Date, Notif, Danatukar, Buttonproduk, Healthbox};
+export {Button, Gap, ButtonMini, Date, Notif, Danatukar, Buttonproduk, Healthbox, Invitefooter};

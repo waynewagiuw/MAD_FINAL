@@ -1,0 +1,18 @@
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="12" height="12" fill="#ABABAB"/>
+<g id="Riwayat/Invite " clip-path="url(#clip0_1_2)">
+<rect width="360" height="740" transform="translate(-300 -602)" fill="#0A3832"/>
+<rect id="Latar Putih" x="-278" y="-409" width="315" height="587" rx="20" fill="#145C61"/>
+<rect id="Rectangle 10" x="-258.5" y="-4.5" width="276" height="39" rx="9.5" stroke="white"/>
+<g id="BackButton 1">
+<g id="arrow_back_ios_24px">
+<path id="icon/navigation/arrow_back_ios_24px" d="M1.93505 3.08249L1.05005 3.97249L6.00006 8.91748L10.9501 3.96749L10.0651 3.08249L6.00006 7.14748L1.93505 3.08249Z" fill="white"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_2">
+<rect width="360" height="740" fill="white" transform="translate(-300 -602)"/>
+</clipPath>
+</defs>
+</svg>

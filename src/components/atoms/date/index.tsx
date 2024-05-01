@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import Gap from '../../atoms/Gap';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import Back from '../../../assets/icon/back'
+import Detail from '../../../assets/icon/back'
 
 const Date = ({
   label
@@ -14,7 +14,7 @@ const Date = ({
           <Text style={styles.text}>{label}</Text>
         </View>
         <View>
-          <Back width={12} height={12}/>
+          <Detail width={12} height={12}/>
         </View>
       </TouchableOpacity>
       <Gap height={20}/>
