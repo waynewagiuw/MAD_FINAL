@@ -8,6 +8,7 @@ import ProfilHeader from './ProfilHeader';
 import Bio from './bio';
 import Help from './help';
 import Jenis from './jenis';
+import Inviteheader from './inviteheader';
 
 
-export {PageHeader, TextInput, Noinput, Transaction, FiturUtama, Produk, ProfilHeader, Bio, Help, Jenis};
+export {PageHeader, TextInput, Noinput, Transaction, FiturUtama, Produk, ProfilHeader, Bio, Help, Jenis, Inviteheader};

@@ -19,8 +19,8 @@ const FiturUtama = () => {
             <FiturUtamaSub image={require('../../../assets/icon/day.jpg')} title="Stamp" />
             <FiturUtamaSub image={require('../../../assets/icon/game.jpg')} title="Games" />
             <FiturUtamaSub image={require('../../../assets/icon/news.jpg')} title="News" />
-            <FiturUtamaSub image={require('../../../assets/icon/doctor.jpg')} title="Health"  pageName="Health"/>
-            <FiturUtamaSub image={require('../../../assets/icon/invite.jpg')} title="Invite" />
+            <FiturUtamaSub image={require('../../../assets/icon/doctor.jpg')} title="Health" pageName="Health"/>
+            <FiturUtamaSub image={require('../../../assets/icon/invite.jpg')} title="Invite" pageName="Invite"/>
             <FiturUtamaSub image={require('../../../assets/icon/more.jpg')} title="More" />
         </View>
     );

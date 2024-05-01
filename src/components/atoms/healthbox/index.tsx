@@ -5,14 +5,14 @@ import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
 
 const Healthbox = ({
   label,
-  image, 
+  image,
 }) => {
   return (
     <ScrollView>
       <View style={styles.content}>
         <TouchableOpacity style={styles.contentwrapper}>
           {image && <Image source={image} style={styles.image} />}
-          <View>
+          <View style={{marginHorizontal:42, marginLeft:10}}>
             <Text style={styles.textone}>{label}</Text>
           </View>
         </TouchableOpacity>
@@ -35,14 +35,12 @@ const styles = StyleSheet.create({
   contentwrapper: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginHorizontal: 26,
+    marginHorizontal: 10,
     marginVertical: 10,
-    alignItems: 'center', 
- },
+    alignItems: 'center',
+  },
   image: {
-    width: 20, 
-    height: 20, 
-    marginRight: 10, 
+    padding: 1
   },
   textone: {
     fontSize: 11,

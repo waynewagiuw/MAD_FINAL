@@ -9,5 +9,6 @@ import Shop from './Shop'
 import Dana from './Dana'
 import History from './History'
 import Health from './Health'
+import Invite from './Invite'
 
-export{ Splash, SignIn, Verification, Profil, Home, Notification, Mission, Shop, Dana, History, Health}
+export{ Splash, SignIn, Verification, Profil, Home, Notification, Mission, Shop, Dana, History, Health, Invite}
