@@ -2,7 +2,7 @@ import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import {  Gap, PageHeader, Notif } from '../../components';
 
-const Profil = ({ navigation }) => {
+const Notification = ({ navigation }) => {
 
     return (
         <ScrollView style={styles.container}>
@@ -39,7 +39,7 @@ const Profil = ({ navigation }) => {
     );
 };
 
-export default Profil;
+export default Notification;
 
 const styles = StyleSheet.create({
     container: {
